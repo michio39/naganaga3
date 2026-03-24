@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ステップハート | Design 06</title>
+  <style>
+    :root{--bg:#fffbea;--ink:#17313f;--soft:#5d7380;--yellow:#ffd84b;--teal:#1f9ea1;--pink:#ff8f6f;--line:#efe2a6}*{box-sizing:border-box}body{margin:0;font-family:"Trebuchet MS","Yu Gothic","Hiragino Sans",sans-serif;background:linear-gradient(180deg,#fffef4 0%,var(--bg) 100%);color:var(--ink);line-height:1.75}a{text-decoration:none;color:inherit}.wrap{width:min(1080px,calc(100% - 32px));margin:0 auto}header{padding:22px 0 60px}.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px}.brand{font-weight:900;font-size:clamp(1.35rem,2.4vw,1.9rem);letter-spacing:.08em;line-height:1}.back{padding:10px 14px;border-radius:999px;background:#fff;border:2px solid var(--ink)}.hero{display:grid;grid-template-columns:1fr 360px;gap:18px}.main,.side,.card,.contact{border-radius:28px;border:2px solid var(--ink)}.main{background:linear-gradient(135deg,var(--yellow) 0%,#fff08f 100%);padding:42px}.side{background:#fff;padding:24px}.tag{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--ink);color:#fff;font-weight:800;margin-bottom:16px}h1,h2,h3,p{margin:0}h1{font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.04;letter-spacing:-.04em;margin-bottom:16px}.lead{max-width:34rem;margin-bottom:24px}.actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 20px;border-radius:999px;font-weight:800;border:2px solid var(--ink)}.primary{background:var(--teal);color:#fff}.secondary{background:#fff}.bubbles{display:grid;gap:12px;margin-top:18px}.bubbles div{padding:14px 16px;border-radius:18px;background:#e8fbfb;border:2px solid var(--ink)}section{padding:0 0 56px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:#fff;padding:22px}.card strong{display:inline-block;padding:6px 12px;border-radius:999px;background:var(--pink);color:#fff;margin-bottom:12px}.card p,.contact p{color:var(--soft)}.contact{background:linear-gradient(135deg,#fff 0%,#e8fbfb 100%);padding:30px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}@media(max-width:900px){.hero,.grid,.contact{grid-template-columns:1fr}.main{padding:32px 22px}}
+  </style>
+  <style>
+    .service-info{margin-top:18px;display:grid;gap:10px;font-size:1rem;color:var(--ink)}
+    .service-info>strong,.service-info>span{display:block;padding:14px 16px;border:2px solid var(--ink);border-radius:18px;background:#fff}
+    .service-info strong{font-weight:800}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><div class="nav"><div class="brand">ステップハート</div><a class="back" href="index.html">一覧へ戻る</a></div><div class="hero"><div class="main"><span class="tag">Cheerful Pop</span><h1>わかりやすく、<br>相談しやすく、<br>すぐ動く。</h1><p class="lead">明るく親しみやすい印象で、価格の手軽さを前に出しやすいポップトーンのLPです。</p><div class="actions"><a class="btn primary" href="#contact">相談する</a><a class="btn secondary" href="#grid">見る</a></div></div><aside class="side"><h2>親近感を強く出したいときに。</h2><div class="bubbles"><div>安さが直感的に伝わる</div><div>固すぎず丁寧に見える</div><div>迅速な印象を軽快に表現</div></div></aside></div></div></header>
+  <section id="grid"><div class="wrap"><div class="grid"><article class="card"><strong>安さ</strong><h3>気軽に問い合わせやすい</h3><p>明るい配色で、価格に対する心理的ハードルを下げます。</p></article><article class="card"><strong>丁寧</strong><h3>やさしく説明する印象</h3><p>親しみやすいレイアウトで、話しかけやすい空気感を出します。</p></article><article class="card"><strong>迅速</strong><h3>スピーディーな反応</h3><p>ボタンや情報配置をシンプルにして、行動しやすくしています。</p></article></div></div></section>
+  <section id="contact"><div class="wrap"><div class="contact"><div><h2>気になることから先に相談してください</h2><p>料金、流れ、対応内容など、はじめての方にもわかりやすくご案内します。</p></div><a class="btn primary" href="mailto:info@example.com">お問い合わせ</a></div></div></section>
+  <section class="service-info-section">
+    <div class="wrap">
+      <div class="service-info">
+        <span><strong>作業エリア</strong>　久留米市 / 筑後市 / 三潴 / 城島 / みやま八女 / 広川</span>
+        <span><strong>営業時間</strong>　午前7時～午後9時</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

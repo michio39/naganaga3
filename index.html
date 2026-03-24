@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ステップハート | LPデザイン一覧</title>
+  <style>
+    :root { --bg:#f4efe8; --panel:rgba(255,255,255,.78); --ink:#1f1a17; --soft:#6c625b; --accent:#d76a3c; --line:rgba(31,26,23,.08); --shadow:0 20px 50px rgba(76,50,35,.12); }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); font-family:"Yu Gothic","Hiragino Kaku Gothic ProN",sans-serif; background:radial-gradient(circle at top left,rgba(215,106,60,.16),transparent 28%),radial-gradient(circle at bottom right,rgba(245,209,161,.22),transparent 30%),linear-gradient(180deg,#fffaf5 0%,var(--bg) 100%); }
+    .wrap { width:min(1120px,calc(100% - 32px)); margin:0 auto; }
+    header { padding:48px 0 26px; }
+    .hero { background:var(--panel); border:1px solid rgba(255,255,255,.85); border-radius:32px; box-shadow:var(--shadow); padding:42px; backdrop-filter:blur(16px); }
+    .tag { display:inline-block; padding:8px 14px; border-radius:999px; background:rgba(215,106,60,.12); color:var(--accent); font-weight:700; margin-bottom:18px; }
+    h1,h2,p { margin:0; }
+    h1 { font-size:clamp(2.2rem,5vw,4.6rem); line-height:1.02; letter-spacing:-.04em; margin-bottom:16px; }
+    .lead { max-width:44rem; color:var(--soft); line-height:1.8; margin-bottom:24px; }
+    .meta { display:flex; flex-wrap:wrap; gap:10px; }
+    .meta span { padding:10px 14px; background:rgba(255,255,255,.7); border:1px solid var(--line); border-radius:999px; font-size:.95rem; }
+    .service-info { margin-top:18px; display:grid; gap:10px; font-size:1rem; color:var(--ink); }
+    .service-info > strong, .service-info > span { display:block; padding:14px 16px; border:1px solid var(--line); border-radius:16px; background:rgba(255,255,255,.72); }
+    .service-info strong { font-weight:800; }
+    main { padding:18px 0 56px; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; }
+    .card { background:rgba(255,255,255,.82); border:1px solid rgba(255,255,255,.85); box-shadow:var(--shadow); border-radius:26px; padding:24px; }
+    .card-top { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:14px; }
+    .num { width:46px; height:46px; border-radius:50%; display:inline-flex; align-items:center; justify-content:center; background:rgba(215,106,60,.12); color:var(--accent); font-weight:800; }
+    .card p { color:var(--soft); line-height:1.75; min-height:5.2em; margin-bottom:18px; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; min-height:46px; padding:0 18px; border-radius:999px; font-weight:700; text-decoration:none; background:linear-gradient(135deg,#d76a3c 0%,#e58f5b 100%); color:#fff; }
+    footer { padding:0 0 28px; color:var(--soft); text-align:center; }
+    @media (max-width:760px) { .hero { padding:30px 22px; } .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="hero">
+        <span class="tag">10 Design Variations</span>
+        <h1>ステップハート<br>LPデザイン一覧</h1>
+        <p class="lead">「安さ・丁寧・迅速」を共通メッセージにして、異なるトーンのLPを10種類用意しました。方向性を見比べて、好みの案をベースにさらに調整できます。</p>
+        <div class="meta">
+          <span>共通訴求: 安さ</span>
+          <span>共通訴求: 丁寧</span>
+          <span>共通訴求: 迅速</span>
+          <span>スマホ対応</span>
+        </div>
+        <div class="service-info">
+          <span><strong>作業エリア</strong>　久留米市 / 筑後市 / 三潴 / 城島 / みやま八女 / 広川</span>
+          <span><strong>営業時間</strong>　午前7時～午後9時</span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="wrap">
+      <div class="grid">
+        <article class="card"><div class="card-top"><div class="num">01</div><h2>Warm Natural</h2></div><p>やわらかい暖色と丸みのあるカードで、親しみやすさと相談しやすさを前面に出した構成です。</p><a class="btn" href="design-01.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">02</div><h2>Clean Trust</h2></div><p>青系の配色と整った余白で、誠実さと信頼感を重視したコーポレート寄りのデザインです。</p><a class="btn" href="design-02.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">03</div><h2>Speed Impact</h2></div><p>斜めのレイアウトと強い色のコントラストで、スピード感と行動喚起を強めたデザインです。</p><a class="btn" href="design-03.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">04</div><h2>Soft Mint</h2></div><p>淡いミントと白を軸に、丁寧さや安心感を静かに伝える、清潔感重視のデザインです。</p><a class="btn" href="design-04.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">05</div><h2>Elegant Classic</h2></div><p>上品なセリフ体と深いネイビーで、落ち着いた高品質感を出した大人向けのデザインです。</p><a class="btn" href="design-05.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">06</div><h2>Cheerful Pop</h2></div><p>明るい黄色と青緑を組み合わせ、安さと親しみやすさを軽快に見せるポップなデザインです。</p><a class="btn" href="design-06.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">07</div><h2>Editorial Grid</h2></div><p>大胆な見出しとグリッド構成で、情報の整理感と印象の強さを両立させたデザインです。</p><a class="btn" href="design-07.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">08</div><h2>Curve Pastel</h2></div><p>曲線背景と淡いピンクベージュで、やさしさと女性的な柔らかさを意識したデザインです。</p><a class="btn" href="design-08.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">09</div><h2>Japanese Modern</h2></div><p>余白を大きく取り、赤と生成りで和モダンな空気感を作ったミニマルなデザインです。</p><a class="btn" href="design-09.html">開く</a></article>
+        <article class="card"><div class="card-top"><div class="num">10</div><h2>Fresh Green</h2></div><p>グリーンと白を軸に、誠実さ、軽さ、スムーズな対応感を伝えるナチュラル志向のデザインです。</p><a class="btn" href="design-10.html">開く</a></article>
+      </div>
+    </div>
+  </main>
+  <footer>© ステップハート デザイン一覧</footer>
+</body>
+</html>

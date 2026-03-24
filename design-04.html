@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ステップハート | Design 04</title>
+  <style>
+    :root{--bg:#eef7f4;--panel:#ffffff;--ink:#203230;--soft:#5f7874;--accent:#4ea48e;--sub:#dff3ed;--line:#dbeae5}*{box-sizing:border-box}body{margin:0;font-family:"Yu Gothic","Hiragino Sans",sans-serif;color:var(--ink);background:radial-gradient(circle at top right,rgba(78,164,142,.14),transparent 26%),linear-gradient(180deg,#fbfefd 0%,var(--bg) 100%);line-height:1.8}a{text-decoration:none;color:inherit}.wrap{width:min(1080px,calc(100% - 32px));margin:0 auto}header{padding:28px 0 60px}.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:30px}.brand{font-weight:900;font-size:clamp(1.35rem,2.4vw,1.9rem);letter-spacing:.08em;line-height:1}.back{padding:10px 14px;border-radius:999px;background:#fff;border:1px solid var(--line)}.hero{display:grid;grid-template-columns:1fr 340px;gap:20px}.main,.side,.card,.contact{background:rgba(255,255,255,.92);border:1px solid var(--line);border-radius:28px}.main{padding:44px}.tag{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--sub);color:var(--accent);font-weight:700;margin-bottom:16px}h1,h2,h3,p{margin:0}h1{font-size:clamp(2.6rem,6vw,4.6rem);line-height:1.08;letter-spacing:-.04em;margin-bottom:14px}.lead{color:var(--soft);margin-bottom:22px;max-width:34rem}.cta{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 20px;border-radius:999px;font-weight:700}.primary{background:var(--accent);color:#fff}.ghost{border:1px solid var(--line);background:#fff}.side{padding:24px}.side h2{font-size:1.8rem;line-height:1.25;margin-bottom:12px}.side p{color:var(--soft)}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.chips span{padding:9px 12px;border-radius:999px;background:var(--sub);color:#2f665b}section{padding:0 0 56px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{padding:24px}.card strong{display:inline-flex;width:40px;height:40px;align-items:center;justify-content:center;border-radius:50%;background:var(--sub);color:var(--accent);margin-bottom:12px}.card p,.contact p{color:var(--soft)}.contact{padding:30px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}@media(max-width:900px){.hero,.cards,.contact{grid-template-columns:1fr}.main{padding:32px 22px}}
+  </style>
+  <style>
+    .service-info{margin-top:18px;display:grid;gap:10px;font-size:1rem;color:var(--ink)}
+    .service-info>strong,.service-info>span{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.92)}
+    .service-info strong{font-weight:800}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><div class="nav"><div class="brand">ステップハート</div><a class="back" href="index.html">一覧へ戻る</a></div><div class="hero"><div class="main"><span class="tag">Soft Mint</span><h1>安心して相談できる、<br>やさしいLP。</h1><p class="lead">落ち着いた色と余白で「丁寧さ」を中心に伝えながら、価格の手軽さと迅速な対応を自然に訴求するデザインです。</p><div class="cta"><a class="btn primary" href="#contact">相談する</a><a class="btn ghost" href="#cards">ポイントを見る</a></div></div><aside class="side"><h2>ていねいに、やわらかく伝える。</h2><p>親しみや安心感を求めるサービスに相性がよいトーンです。</p><div class="chips"><span>安さ</span><span>丁寧</span><span>迅速</span></div></aside></div></div></header>
+  <section id="cards"><div class="wrap"><div class="cards"><article class="card"><strong>1</strong><h3>安さ</h3><p>相談のハードルを下げる、無理のない価格感を表現します。</p></article><article class="card"><strong>2</strong><h3>丁寧</h3><p>やさしい色使いと読みやすい構成で、安心感を強めます。</p></article><article class="card"><strong>3</strong><h3>迅速</h3><p>わかりやすい導線で、問い合わせまでスムーズに進めます。</p></article></div></div></section>
+  <section id="contact"><div class="wrap"><div class="contact"><div><h2>まずはお気軽にお問い合わせください</h2><p>ご不安やご質問を一つずつ確認しながら、スムーズにご案内します。</p></div><a class="btn primary" href="mailto:info@example.com">メールする</a></div></div></section>
+  <section class="service-info-section">
+    <div class="wrap">
+      <div class="service-info">
+        <span><strong>作業エリア</strong>　久留米市 / 筑後市 / 三潴 / 城島 / みやま八女 / 広川</span>
+        <span><strong>営業時間</strong>　午前7時～午後9時</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

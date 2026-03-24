@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ステップハート | Design 08</title>
+  <style>
+    :root{--bg:#fbf4f1;--ink:#3b2a30;--soft:#7f6a72;--accent:#d97b88;--sub:#f3d9de;--panel:rgba(255,255,255,.82);--line:rgba(59,42,48,.1)}*{box-sizing:border-box}body{margin:0;font-family:"Yu Gothic","Hiragino Sans",sans-serif;color:var(--ink);background:radial-gradient(circle at top left,rgba(217,123,136,.16),transparent 25%),radial-gradient(circle at bottom right,rgba(243,217,222,.8),transparent 25%),linear-gradient(180deg,#fffafa 0%,var(--bg) 100%);line-height:1.8}a{text-decoration:none;color:inherit}.wrap{width:min(1080px,calc(100% - 32px));margin:0 auto}header{padding:26px 0 60px}.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:26px}.brand{font-weight:900;font-size:clamp(1.35rem,2.4vw,1.9rem);letter-spacing:.08em;line-height:1}.back{padding:10px 14px;background:rgba(255,255,255,.72);border:1px solid var(--line);border-radius:999px}.hero{position:relative;overflow:hidden;background:var(--panel);border:1px solid rgba(255,255,255,.9);backdrop-filter:blur(12px);border-radius:34px;padding:52px 46px;box-shadow:0 22px 50px rgba(133,94,103,.12)}.shape1,.shape2{position:absolute;border-radius:50%}.shape1{width:260px;height:260px;right:-80px;top:-90px;background:rgba(217,123,136,.18)}.shape2{width:220px;height:220px;left:-70px;bottom:-90px;background:rgba(243,217,222,.9)}.content{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .9fr;gap:24px}.tag{display:inline-block;padding:8px 14px;border-radius:999px;background:var(--sub);color:#bc6171;font-weight:700;margin-bottom:16px}h1,h2,h3,p{margin:0}h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.05;letter-spacing:-.04em;margin-bottom:16px}.lead{color:var(--soft);max-width:34rem;margin-bottom:24px}.btns{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 20px;border-radius:999px;font-weight:700}.primary{background:var(--accent);color:#fff}.secondary{border:1px solid var(--line);background:rgba(255,255,255,.8)}.aside{display:grid;gap:12px;align-self:center}.bubble{padding:18px;border-radius:24px;background:rgba(255,255,255,.72);border:1px solid rgba(255,255,255,.92)}section{padding:0 0 56px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card,.contact{background:rgba(255,255,255,.82);border:1px solid rgba(255,255,255,.9);border-radius:26px;box-shadow:0 18px 36px rgba(133,94,103,.08)}.card{padding:24px}.card strong{display:inline-block;margin-bottom:10px;color:#bc6171}.card p,.contact p{color:var(--soft)}.contact{padding:30px;display:grid;grid-template-columns:1fr auto;gap:16px;align-items:center}@media(max-width:900px){.content,.cards,.contact{grid-template-columns:1fr}.hero{padding:34px 22px}}
+  </style>
+  <style>
+    .service-info{margin-top:18px;display:grid;gap:10px;font-size:1rem;color:var(--ink)}
+    .service-info>strong,.service-info>span{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.82)}
+    .service-info strong{font-weight:800}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><div class="nav"><div class="brand">ステップハート</div><a class="back" href="index.html">一覧へ戻る</a></div><div class="hero"><div class="shape1"></div><div class="shape2"></div><div class="content"><div><span class="tag">Curve Pastel</span><h1>やさしく伝わる。<br>でも、しっかり頼れる。</h1><p class="lead">柔らかな空気感で丁寧さを引き立てつつ、安さと迅速さも埋もれないよう整理したデザインです。</p><div class="btns"><a class="btn primary" href="#contact">相談する</a><a class="btn secondary" href="#cards">詳細を見る</a></div></div><aside class="aside"><div class="bubble">価格がわかりやすい</div><div class="bubble">説明がていねい</div><div class="bubble">対応がスムーズ</div></aside></div></div></div></header>
+  <section id="cards"><div class="wrap"><div class="cards"><article class="card"><strong>安さ</strong><h3>手軽に依頼しやすい</h3><p>親しみあるビジュアルで、問い合わせ前の緊張感を和らげます。</p></article><article class="card"><strong>丁寧</strong><h3>細やかな気配りを表現</h3><p>柔らかいトーンで、誠実なコミュニケーションを印象づけます。</p></article><article class="card"><strong>迅速</strong><h3>迷わせない導線</h3><p>情報を絞り、すぐ次の行動へ進みやすくしています。</p></article></div></div></section>
+  <section id="contact"><div class="wrap"><div class="contact"><div><h2>気になる点から、まずはご相談ください</h2><p>ご要望やご予算を伺いながら、丁寧かつスムーズにご案内します。</p></div><a class="btn primary" href="mailto:info@example.com">お問い合わせ</a></div></div></section>
+  <section class="service-info-section">
+    <div class="wrap">
+      <div class="service-info">
+        <span><strong>作業エリア</strong>　久留米市 / 筑後市 / 三潴 / 城島 / みやま八女 / 広川</span>
+        <span><strong>営業時間</strong>　午前7時～午後9時</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

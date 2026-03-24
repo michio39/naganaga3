@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ステップハート | Design 05</title>
+  <style>
+    :root{--bg:#f5f1e8;--panel:#fcfaf6;--ink:#182433;--soft:#687282;--accent:#a67c35;--deep:#1b2f44;--line:#e4ddd1}*{box-sizing:border-box}body{margin:0;font-family:Georgia,"Times New Roman","Hiragino Mincho ProN",serif;background:linear-gradient(180deg,#faf7f1 0%,var(--bg) 100%);color:var(--ink);line-height:1.8}a{text-decoration:none;color:inherit}.wrap{width:min(1080px,calc(100% - 32px));margin:0 auto}header{padding:26px 0 64px}.nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px;font-family:"Yu Gothic","Hiragino Sans",sans-serif}.brand{font-weight:900;font-size:clamp(1.35rem,2.4vw,1.9rem);letter-spacing:.08em;line-height:1}.back{color:var(--deep)}.hero{background:var(--panel);border:1px solid var(--line);border-radius:30px;padding:52px;display:grid;grid-template-columns:1.1fr .9fr;gap:28px;box-shadow:0 24px 50px rgba(48,40,24,.08)}.label{font-family:"Yu Gothic","Hiragino Sans",sans-serif;display:inline-block;padding:8px 14px;border:1px solid #d4c4a4;border-radius:999px;color:#8e6b2e;margin-bottom:18px}h1,h2,h3,p{margin:0}h1{font-size:clamp(2.8rem,6vw,5.1rem);line-height:1.02;letter-spacing:-.04em;margin-bottom:18px}.lead{color:var(--soft);font-size:1.05rem;max-width:34rem;margin-bottom:24px}.actions{display:flex;gap:12px;flex-wrap:wrap;font-family:"Yu Gothic","Hiragino Sans",sans-serif}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 22px;border-radius:999px;font-weight:700}.primary{background:var(--deep);color:#fff}.secondary{border:1px solid #d6d0c4;background:transparent}.quote{padding:28px;border-radius:24px;background:linear-gradient(180deg,#23374c 0%,#172533 100%);color:#fff}.quote p{color:rgba(255,255,255,.74)}.quote .line{width:48px;height:2px;background:#d5b77a;margin:18px 0}section{padding:0 0 56px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:24px}.card strong{display:block;color:var(--accent);margin-bottom:8px;font-size:1.2rem}.card p,.contact p{color:var(--soft);font-family:"Yu Gothic","Hiragino Sans",sans-serif}.contact{background:var(--deep);color:#fff;border-radius:28px;padding:34px;display:grid;grid-template-columns:1fr auto;gap:18px;align-items:center;font-family:"Yu Gothic","Hiragino Sans",sans-serif}.contact p{color:rgba(255,255,255,.74)}@media(max-width:900px){.hero,.grid,.contact{grid-template-columns:1fr}.hero{padding:36px 24px}}
+  </style>
+  <style>
+    .service-info{margin-top:18px;display:grid;gap:10px;font-size:1rem;color:var(--ink)}
+    .service-info>strong,.service-info>span{display:block;padding:14px 16px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}
+    .service-info strong{font-weight:800}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><div class="nav"><div class="brand">ステップハート</div><a class="back" href="index.html">一覧へ戻る</a></div><div class="hero"><div><span class="label">Elegant Classic</span><h1>落ち着いた品質感で、<br>信頼を積み上げる。</h1><p class="lead">高級感を少し加えつつ、訴求軸はあくまで「安さ・丁寧・迅速」。品のある見え方に寄せた案です。</p><div class="actions"><a class="btn primary" href="#contact">お問い合わせ</a><a class="btn secondary" href="#grid">特徴を見る</a></div></div><aside class="quote"><h2>必要以上に飾らず、上質に。</h2><div class="line"></div><p>落ち着きのあるトーンで、誠実なサービスであることを印象づけます。</p></aside></div></div></header>
+  <section id="grid"><div class="wrap"><div class="grid"><article class="card"><strong>安さ</strong><h3>手の届く価格設計</h3><p>価格を抑えながらも、品質が軽く見えない構成にしています。</p></article><article class="card"><strong>丁寧</strong><h3>安心できる説明</h3><p>落ち着いた紙面設計で、ていねいな印象を強化します。</p></article><article class="card"><strong>迅速</strong><h3>流れの良い導線</h3><p>問い合わせまでの動線を明快にし、スムーズな反応へつなげます。</p></article></div></div></section>
+  <section id="contact"><div class="wrap"><div class="contact"><div><h2>ステップハートにご相談ください</h2><p>価格・品質・スピードのバランスを重視する方向けのLPデザインです。</p></div><a class="btn primary" href="mailto:info@example.com">メールする</a></div></div></section>
+  <section class="service-info-section">
+    <div class="wrap">
+      <div class="service-info">
+        <span><strong>作業エリア</strong>　久留米市 / 筑後市 / 三潴 / 城島 / みやま八女 / 広川</span>
+        <span><strong>営業時間</strong>　午前7時～午後9時</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

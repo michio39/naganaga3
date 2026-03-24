@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ステップハート | Design 07</title>
+  <style>
+    :root{--bg:#f7f3ec;--ink:#121212;--soft:#5f5f5f;--accent:#e05b35;--line:#181818}*{box-sizing:border-box}body{margin:0;font-family:Arial,"Yu Gothic","Hiragino Sans",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}a{text-decoration:none;color:inherit}.wrap{width:min(1120px,calc(100% - 24px));margin:0 auto}header{padding:18px 0 48px}.nav{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--line);padding-bottom:14px;margin-bottom:22px}.brand{font-weight:900;font-size:clamp(1.35rem,2.4vw,1.9rem);letter-spacing:.08em;line-height:1}.back{text-transform:uppercase;font-size:.9rem}.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:0;border:2px solid var(--line);background:#fff}.left,.right{padding:34px}.left{border-right:2px solid var(--line)}.tag{display:inline-block;font-size:.8rem;text-transform:uppercase;letter-spacing:.14em;padding:6px 10px;border:2px solid var(--line);margin-bottom:18px}h1,h2,h3,p{margin:0}h1{font-size:clamp(2.9rem,7vw,5.6rem);line-height:.95;letter-spacing:-.06em;margin-bottom:18px}.lead{color:var(--soft);font-size:1.04rem;margin-bottom:24px;max-width:33rem}.btns{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 20px;font-weight:800;border:2px solid var(--line)}.primary{background:var(--accent);color:#fff}.secondary{background:#fff}.right h2{font-size:2rem;line-height:1.05;margin-bottom:18px}.notes{display:grid;gap:12px}.notes div{padding:14px;border:2px solid var(--line)}section{padding:0 0 48px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-left:2px solid var(--line);border-top:2px solid var(--line)}.card{background:#fff;padding:24px;border-right:2px solid var(--line);border-bottom:2px solid var(--line)}.card strong{display:block;font-size:2rem;color:var(--accent);margin-bottom:8px}.card p,.cta p{color:var(--soft)}.cta{margin-top:18px;border:2px solid var(--line);background:#fff;padding:26px;display:grid;grid-template-columns:1fr auto;gap:14px;align-items:center}@media(max-width:900px){.hero,.grid,.cta{grid-template-columns:1fr}.left{border-right:0;border-bottom:2px solid var(--line)}}
+  </style>
+  <style>
+    .service-info{margin-top:18px;display:grid;gap:10px;font-size:1rem;color:var(--ink)}
+    .service-info>strong,.service-info>span{display:block;padding:14px 16px;border:2px solid var(--line);border-radius:16px;background:#fff}
+    .service-info strong{font-weight:800}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><div class="nav"><div class="brand">ステップハート</div><a class="back" href="index.html">BACK</a></div><div class="hero"><div class="left"><span class="tag">Editorial Grid</span><h1>PRICE.<br>CARE.<br>SPEED.</h1><p class="lead">見出しの強さで印象を残しつつ、内容は整理して読みやすく。大胆さと情報性を両立したレイアウトです。</p><div class="btns"><a class="btn primary" href="#contact">CONTACT</a><a class="btn secondary" href="#grid">DETAIL</a></div></div><div class="right"><h2>安さ、丁寧、迅速。<br>必要なことを、まっすぐに。</h2><div class="notes"><div>無駄なく伝える構成</div><div>印象に残るタイポグラフィ</div><div>サービス内容を整理しやすい</div></div></div></div></div></header>
+  <section id="grid"><div class="wrap"><div class="grid"><article class="card"><strong>01</strong><h3>安さ</h3><p>最初にコスト面を認識させ、問い合わせのハードルを下げます。</p></article><article class="card"><strong>02</strong><h3>丁寧</h3><p>情報を整列させ、誠実で整理された印象をつくります。</p></article><article class="card"><strong>03</strong><h3>迅速</h3><p>すぐ行動したくなるUIで、反応率を高める設計です。</p></article></div><div class="cta" id="contact"><div><h2>必要な情報だけで、すぐ伝わるLPに。</h2><p>インパクトを出しつつ、サービスの軸はぶらさずに見せたい場合に向いています。</p></div><a class="btn primary" href="mailto:info@example.com">MAIL</a></div></div></section>
+  <section class="service-info-section">
+    <div class="wrap">
+      <div class="service-info">
+        <span><strong>作業エリア</strong>　久留米市 / 筑後市 / 三潴 / 城島 / みやま八女 / 広川</span>
+        <span><strong>営業時間</strong>　午前7時～午後9時</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
